@@ -739,7 +739,7 @@ justify-content: center;
 fill: transparent;
 }
 
-.modal-check:checked +.check-text span{
+.modal-check:checked +.privacy-span{
     border: none;
     background-color: #404bbf;
     fill: #f4f4fd;
@@ -775,4 +775,8 @@ fill: transparent;
 
 .modal-text:focus {
     border-color: #4d5ae5;
+}
+
+.privacy-span{
+    display: inline-flex;
 }
