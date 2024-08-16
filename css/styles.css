@@ -723,7 +723,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-text span {
+.privacy-span {
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -732,6 +732,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
 }
 
 .modal-check:checked +.check-text span{
@@ -770,8 +775,4 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-text:focus {
     border-color: #4d5ae5;
-}
-.privacy-accept-icon{
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
 }
