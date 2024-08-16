@@ -739,7 +739,7 @@ justify-content: center;
 fill: transparent;
 }
 
-.modal-check:checked +.privacy-span{
+.modal-check:checked +.check-text span{
     border: none;
     background-color: #404bbf;
     fill: #f4f4fd;
